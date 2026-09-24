@@ -2,17 +2,16 @@
 
 Animations I built while teaching myself [Manim](https://www.manim.community/). Mostly physics simulations, sorting algorithms and geometry.
 
-Most of these run an actual simulation rather than a scripted animation. I work out the forces each frame, update the velocity and position, and check for collisions, so the movement comes out of the maths instead of being set in advance.
 
 Made with Manim Community v0.19.1.
 
 ## Previews
 
-**Bubble sort by colour** - 10 random colours sorted by hue.
+**Bubble sort by colour**: 10 random colours generated which get sorted by hue.
 
 ![Bubble sort sorting random colours into a spectrum](assets/bubble_sort_colours.gif)
 
-**Elastic collisions** - 20 balls bouncing off the walls and each other.
+**Elastic collisions** - 20 balls bouncing off the walls and each other with collision detection. 
 
 ![20 balls colliding elastically inside a box](assets/multi_ball_elastic.gif)
 
