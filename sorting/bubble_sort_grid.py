@@ -14,6 +14,7 @@ class BubbleSortGrid(Scene):
             
             randomly_generate(colours, sq_per_row, sq_per_col)
             squares = generate_grid(colours, start_x, start_y, sq_per_col, sq_per_row)
+            generate_grid(colours, start_x, start_y, sq_per_col, sq_per_row)
             sort(colours, squares)
                         
         
