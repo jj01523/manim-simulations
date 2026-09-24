@@ -11,9 +11,16 @@ class TwoBodyGravity(Scene):
                     radius=rad * (1.002 ** (i ** 2)) / 200,
                     stroke_opacity=0,
                     fill_color=col,
-                    fill_opacity=0.2 - i / 300
+                    fill_opacity=0.32 - i / 230
                 ).move_to(obj)
                 glow_group.add(new_circle)
+            core = Circle(
+                radius=rad * 0.16,
+                stroke_opacity=0,
+                fill_color=WHITE,
+                fill_opacity=1
+            ).move_to(obj)
+            glow_group.add(core)
             return glow_group
 
         c_radius = 4
@@ -25,7 +32,7 @@ class TwoBodyGravity(Scene):
             radius=c_radius
         ).to_edge(LEFT).set_color(BLUE_B)
 
-        c1 = create_glow(circle1)
+        c1 = create_glow(circle1, col=BLUE_B)
 
         circle2 = Circle(
             color=WHITE,
@@ -33,7 +40,7 @@ class TwoBodyGravity(Scene):
             radius=c_radius
         ).to_edge(RIGHT).set_color(BLUE_B)
 
-        c2 = create_glow(circle2)
+        c2 = create_glow(circle2, col=GOLD_B)
 
         self.add(c1, c2)
 

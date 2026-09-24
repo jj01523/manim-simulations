@@ -15,9 +15,9 @@ Made with Manim Community v0.19.1.
 
 ![Two balls colliding in a box with the detection threshold drawn on](assets/two_ball_collision.gif)
 
-**Orbits with a tracking camera** - two planets around a star, with the camera zooming in to follow one of them.
+**Binary stars** - two stars orbiting each other under their own gravity. The force between them is worked out again every frame from how far apart they are.
 
-![Two planets orbiting a star with the camera zooming to follow one](assets/orbit_camera_follow.gif)
+![Two stars orbiting each other, one blue and one gold](assets/two_body_gravity.gif)
 
 **Triangle area** - the area is recalculated with Heron's formula as the triangle changes shape.
 
