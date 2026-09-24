@@ -15,6 +15,10 @@ Made with Manim Community v0.19.1.
 
 ![Two balls colliding in a box with the detection threshold drawn on](assets/two_ball_collision.gif)
 
+**Ball with gravity** - a ball falling under gravity with a sideways velocity, bouncing along a row of platforms and dropping through the gaps.
+
+![A ball bouncing across platforms under gravity](assets/ball_on_platforms.gif)
+
 **Binary stars** - two stars orbiting each other under their own gravity. The force between them is worked out again every frame from how far apart they are.
 
 ![Two stars orbiting each other, one blue and one gold](assets/two_body_gravity.gif)
