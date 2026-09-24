@@ -7,9 +7,9 @@ Made with Manim Community v0.19.1.
 
 ## Previews
 
-**Bubble sort by colour**: 10 random colours generated which get sorted by hue.
+**Bubble sort by colour**: a grid of 35 random colours generated which get sorted by hue.
 
-![Bubble sort sorting random colours into a spectrum](assets/bubble_sort_colours.gif)
+![A grid of random colours being bubble sorted into a spectrum](assets/bubble_sort_grid.gif)
 
 **Collision detection** - two balls in a box. The grey circle is the threshold for working out when they touch, and the red dot tracks the other ball.
 
