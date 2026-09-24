@@ -44,6 +44,8 @@ class MultiBallElastic(Scene):
                 #collision with top & bottom walls
                 if abs(position[1]) > (box_parameter/2) - circle_radius:
                     ball.velocity[1] *= -1
+                #put the ball back on the wall so it can't get stuck outside
+                ball.move_to(np.clip(position, -((box_parameter/2) - circle_radius), (box_parameter/2) - circle_radius))
             
             #check for ball collision
             for i in range(len(balls)): #goes through each ball starting at ball 0

@@ -11,9 +11,9 @@ Made with Manim Community v0.19.1.
 
 ![Bubble sort sorting random colours into a spectrum](assets/bubble_sort_colours.gif)
 
-**Elastic collisions** - 20 balls bouncing off the walls and each other with collision detection. 
+**Collision detection** - two balls in a box. The grey circle is the threshold for working out when they touch, and the red dot tracks the other ball.
 
-![20 balls colliding elastically inside a box](assets/multi_ball_elastic.gif)
+![Two balls colliding in a box with the detection threshold drawn on](assets/two_ball_collision.gif)
 
 **Orbits with a tracking camera** - two planets around a star, with the camera zooming in to follow one of them.
 
